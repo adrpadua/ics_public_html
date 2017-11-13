@@ -3,108 +3,117 @@
     src: url('fonts/Avenir-Light.ttf');
 }
 
-@font-face {
-    font-family: Avenir-Medium;
-    src: url('fonts/Avenir-Medium.ttf');
-}
-
 body {
-    background-color: #fff;
-    font-family: Avenir-Light;
+    margin: 0;
+    font-family: Avenir;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
-.content {
-    margin-top: 25%;
+a {
+    text-decoration: none;
 }
 
 .name {
-    text-align: center;
-    font-size: 2em;
+    background-color: rgba(20, 20, 20, 0.9);
+    background-blend-mode: multiply;
+    height: 34vh;
+    color: white;
+    font-size: 3em;
+    padding-top: 0.9em;
+    padding-left: 0.5em;
+    margin-bottom: -0.9em;
 }
 
-.icons {
-    margin-top: 5%;
-}
-
-.icons a {
-    width: inherit;
-}
-
-.icon {
-    margin-bottom: 0.5em;
-    text-align: center;
+.bar {
+    height: 22vh;
+    width: 100%;
 }
 
 .category {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 5%;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+    padding-top: 4%;
+    right: 10vw;
 }
 
-@media (min-width:768px) {
+footer {
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+#code {
+    background-color: #DD7786;
+}
+
+#code:hover {
+    background-color: rgb(180, 93, 106);
+}
+
+#music {
+    background-color: #FF9C7A;
+}
+
+#music:hover {
+    background-color: rgb(207, 126, 99);
+}
+
+#contact {
+    background-color: #FFDD47;
+}
+
+#contact:hover {
+    background-color: rgb(192, 164, 51);
+}
+
+@media (min-width:568px) and (min-height:320px) {
+    
+    .category {
+        margin-top: 3%;
+        padding-top: 0;
+        padding-bottom: 0;
+        right: 1em;
+    }
+}
+
+@media (min-height: 1023px) and (min-width:767px) {
+    
+        .name {
+            padding-left: 1em;
+            font-size: 4em;
+        }
+        
+        .category {
+            margin-top: 10%;
+            font-size: 2.5em;
+        }
+    }
+    
+
+@media (min-width: 1023px) and (min-height:767px) {
 
     .name {
-        font-size: 3em;
-        margin-bottom: -0.5em;
-    }
-
-    .icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .icons a {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .icons #musician {
-        margin-top: 2em;
-    }
-
-    .icons .icon {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
-    #software_engineer { 
-        background-image: url('../assets/img/software_engineer_icon.png');
-        background-repeat: no-repeat;
-    }
-
-    #musician { 
-        background-image: url('../assets/img/musician_icon.png');
-        background-repeat: no-repeat;
-    }
-
-    #connect { 
-        background-image: url('../assets/img/connect_icon.png');
-        background-repeat: no-repeat;
-    }
-
-    .icon img {
-        transition: all ease 0.5s;
-        height: 95px; 
-        width: 95px;
-    }
-    .icon img:hover {
-        opacity: 0;
+        font-size: 4em;
+        padding-left: 1em;
     }
 
     .category {
-        font-size: 2em;
-        text-align: center;
-        margin-top: 2%;
+        margin-top: 5%;
+        font-size: 2.5em;
     }
 }
 
-@media (min-width:1365px) {
-    .content {
-        margin-top: 15%;
+@media (min-width: 1912px) and (min-height:1079px) {
+    
+        .name {
+            font-size: 6em;
+            padding-left: 1em;
+        }
+    
+        .category {
+            margin-top: 4%;
+            font-size: 3em;
+        }
     }
-
-    .icons {
-        margin-top: 3%;
-    }
-}

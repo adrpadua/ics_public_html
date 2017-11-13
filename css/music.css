@@ -4,7 +4,7 @@
 }
 
 nav {
-    background-color: rgb(255, 166, 97);
+    background-color: #FF9C7A;
 }
 
 .banner {
@@ -13,11 +13,11 @@ nav {
 }
 
 .intro {
-    background-color: rgb(255, 166, 97);
+    background-color: #FF9C7A;
 }
 
 .project-title {
-    color: rgb(255, 166, 97);
+    color: #FF9C7A;
 }
 
 .project-content iframe {
@@ -33,5 +33,5 @@ nav {
 }
 
 .spacer {
-    background-color: rgb(255, 166, 97);
+    background-color: #FF9C7A;
 }
