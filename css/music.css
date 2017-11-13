@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Avenir-Light;
+    src: url('../css/fonts/Avenir-Light.ttf');
+}
+
+nav {
+    background-color: rgb(255, 166, 97);
+}
+
+.banner {
+    background: url('https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/12307964_10208560167587634_1826112660329908019_o.jpg?oh=76ae079840813b85170248ed2321aa80&oe=5A9D6E42') center center;
+    background-color: rgba(41, 41, 41, 0.9);
+}
+
+.intro {
+    background-color: rgb(255, 166, 97);
+}
+
+.project-title {
+    color: rgb(255, 166, 97);
+}
+
+.project-content iframe {
+    margin-bottom: 1em;
+}
+
+.project-content h3 {
+    text-align: center;
+}
+
+.song {
+    margin-bottom: 3em;
+}
+
+.spacer {
+    background-color: rgb(255, 166, 97);
+}

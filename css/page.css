@@ -7,15 +7,11 @@
 @media (min-width:320px) {
     body {
         margin: 0;
-    }
-    
-    a {
         font-family: Avenir-Light;
     }
-
+    
     nav {
         position: fixed;
-        background-color: #DD7786;
         height: 3.2em;
         width: 100vw;
         z-index: 1;
@@ -37,9 +33,6 @@
     }
 
     .banner {
-        background: url('https://static.pexels.com/photos/5363/apple-desk-laptop-macbook-pro.jpg') center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         background-color: rgba(34, 34, 34, 0.9);
         background-blend-mode: multiply;
 
@@ -71,7 +64,6 @@
     }
 
     .intro {
-        background-color: #DD7786;
         margin-top: -1.3em;
         margin-bottom: -1.3em;
         text-align: center;
@@ -103,18 +95,7 @@
     }
     
     .project-title {
-        color: #DD7786;
         font-size: 2em;
-    }
-
-    .project-content a {
-        justify-content: center;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .project-content a img {
-        width: 90%;
     }
 
     .project-content p {
@@ -125,7 +106,6 @@
 
     .spacer {
         height: 3em;
-        background-color: #DD7786;
     }
 
     footer {
@@ -203,19 +183,6 @@
         padding-right: 10%;
         padding-bottom: 3em;
     }
-
-    .project-content {
-        display: flex;
-        flex-direction: row;
-    }
-    .project-content a img {
-        margin-top: 2em;
-        width: 30vw;
-    }
-
-    .project-content p {
-        text-align: left;
-    }
 }
 
 @media (min-width:1920px) {
@@ -239,18 +206,16 @@
         padding-left: 20%;
         padding-right: 20%;
     }
-
-    .project-content a img {
-        margin-top: 2em;
-        width: 20vw;
-    }
-
-    .project-content p {
-        font-size: 1.5em;
-    }
 }
 
 @media (min-height: 1920px) {
+    .project {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
     .banner {
         height: 30vh;
     }

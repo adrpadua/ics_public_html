@@ -16,10 +16,4 @@ $(document).ready(function(){
     }, function() {
         $('.link3 a').css('text-decoration', 'none');
     })
-
-    $("a.iframe").fancybox({
-        'width': 480,
-        'height': 640,
-        'type': 'iframe'
-    });
 });

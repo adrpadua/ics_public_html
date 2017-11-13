@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Avenir-Light;
+    src: url('../css/fonts/Avenir-Light.ttf');
+}
+
+nav {
+    background-color: rgb(252, 255, 70);
+}
+
+nav ul li a {
+    color: black;
+}
+
+.banner {
+    background: url('../assets/img/me_1.jpg') center center;
+    background-size: 150%;
+    background-color: rgba(41, 41, 41, 0.9);
+}
+
+.intro {
+    background-color: rgb(252, 255, 70);
+}
+
+.intro-text {
+    color: black;
+}
+
+.project-title {
+    color: black;
+}
+
+.project-content h3 {
+    text-align: center;
+}
+
+.project-content section {
+    text-align: center;
+}
+
+.project-content section .profile-picture {
+    width: 15vw;
+    margin-bottom: 2.5em;
+}
+
+.project-content section img {
+    width: 40vw;
+}
+
+.project-content section p {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.spacer {
+    background-color: rgb(252, 255, 70);
+}
+
+@media (min-width:320px) and (min-height:1024px) {
+    .banner {
+        background-size: 250%;
+    }
+}
+
+/* landscape phones */
+@media (max-height:420px) {
+    .banner {
+        background-size: 120%;
+    }
+}
+
+/* portrait ipads */
+@media (min-width:768px) and (min-height:1024px) {
+    .banner {
+        background-size: 130%;
+    }
+}
+
+/* everything else */
+@media (min-width:1920px) {
+    .banner {
+        background-size: 100%;
+    }
+
+    .intro-text {
+        color: black;
+    }
+}

@@ -3,73 +3,108 @@
     src: url('fonts/Avenir-Light.ttf');
 }
 
+@font-face {
+    font-family: Avenir-Medium;
+    src: url('fonts/Avenir-Medium.ttf');
+}
+
 body {
     background-color: #fff;
     font-family: Avenir-Light;
 }
 
-.info {
-    position: fixed;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 35vh;
-    width: 100vw;
-    height: 100vh;
+.content {
+    margin-top: 25%;
 }
 
 .name {
-    font-size: 3em;
-    font-family: Avenir-Light;
     text-align: center;
+    font-size: 2em;
+}
+
+.icons {
+    margin-top: 5%;
+}
+
+.icons a {
+    width: inherit;
+}
+
+.icon {
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .category {
     font-size: 1.5em;
-    font-family: Avenir-Light;
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 5%;
 }
 
-.icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+@media (min-width:768px) {
+
+    .name {
+        font-size: 3em;
+        margin-bottom: -0.5em;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icons a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .icons #musician {
+        margin-top: 2em;
+    }
+
+    .icons .icon {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #software_engineer { 
+        background-image: url('../assets/img/software_engineer_icon.png');
+        background-repeat: no-repeat;
+    }
+
+    #musician { 
+        background-image: url('../assets/img/musician_icon.png');
+        background-repeat: no-repeat;
+    }
+
+    #connect { 
+        background-image: url('../assets/img/connect_icon.png');
+        background-repeat: no-repeat;
+    }
+
+    .icon img {
+        transition: all ease 0.5s;
+        height: 95px; 
+        width: 95px;
+    }
+    .icon img:hover {
+        opacity: 0;
+    }
+
+    .category {
+        font-size: 2em;
+        text-align: center;
+        margin-top: 2%;
+    }
 }
 
-#software_engineer { 
-	background-image: url('../assets/img/software_engineer_icon.png');
-}
+@media (min-width:1365px) {
+    .content {
+        margin-top: 15%;
+    }
 
-#musician { 
-	background-image: url('../assets/img/musician_icon.png');
-}
-
-#connect { 
-	background-image: url('../assets/img/connect_icon.png');
-}
-
-.icon img {
-    transition: all ease 0.7s;
-    height: 95px; 
-	width: 95px;
-}
-.icon img:hover {
-	opacity: 0;
-}
-
-
-
-
-
-
-
-
-.icons #musician {
-    margin-top: 2em;
-}
-
-.icons .icon {
-    margin-left: 1em;
-    margin-right: 1em;
+    .icons {
+        margin-top: 3%;
+    }
 }
