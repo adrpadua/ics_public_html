@@ -7,7 +7,15 @@ nav {
     background-color: rgb(252, 255, 70);
 }
 
-nav ul li a {
+.current-link {
+    background-color: rgb(230, 230, 64);
+}
+
+.link-container:hover {
+    background-color: rgb(230, 230, 64);
+}
+
+.link-container a {
     color: black;
 }
 

@@ -16,4 +16,10 @@ $(document).ready(function(){
     }, function() {
         $('.link3 a').css('text-decoration', 'none');
     })
+
+    $('.link4').hover(function () {
+        $('.link4 a').css('text-decoration', 'underline');
+    }, function() {
+        $('.link4 a').css('text-decoration', 'none');
+    })
 });

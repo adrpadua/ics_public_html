@@ -23,10 +23,20 @@
         flex-direction: row; 
         list-style: none;
         justify-content: center;
+        margin: 0;
         padding: 0;
     }
-    
-    nav ul li a {
+
+    .nav-links li {
+        height: 100%;
+    }
+
+    .link-container {
+        height: 75%;
+        padding-top: 0.8em;
+    }
+
+    .link-container a {
         margin: 1em 1em;
         text-decoration: none;
         color: white;

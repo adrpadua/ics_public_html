@@ -7,6 +7,14 @@ nav {
     background-color: #FF9C7A;
 }
 
+.current-link {
+    background-color: rgb(207, 126, 99);
+}
+
+.link-container:hover {
+    background-color: rgb(207, 126, 99);
+}
+
 .banner {
     background: url('https://scontent-sjc2-1.xx.fbcdn.net/v/t31.0-8/12307964_10208560167587634_1826112660329908019_o.jpg?oh=76ae079840813b85170248ed2321aa80&oe=5A9D6E42') center center;
     background-color: rgba(41, 41, 41, 0.9);

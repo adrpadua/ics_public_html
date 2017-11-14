@@ -7,6 +7,14 @@ nav {
     background-color: #DD7786;
 }
 
+.current-link {
+    background-color: rgb(180, 93, 106);
+}
+
+.link-container:hover {
+    background-color: rgb(180, 93, 106);
+}
+
 .banner {
     background: url('https://static.pexels.com/photos/5363/apple-desk-laptop-macbook-pro.jpg') center center;
     background-color: rgba(34, 34, 34, 0.9);
@@ -15,7 +23,6 @@ nav {
 .banner-content {
     padding-top: 11vh;
 }
-
 
 .intro {
     background-color: #DD7786;
